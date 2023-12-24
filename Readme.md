@@ -5,6 +5,7 @@ run docker image as container
     - specifying the work directory to keep container in organised
 
 **docker build -t iamyuvi/simpleweb:latest .**
+
 **docker run -p localmachineport:containerport(5000:8080) iamyuvi/simpleweb**
 
-go to localhost in browser to see output
+go to localhost:5000 in browser to see output
